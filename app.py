@@ -5,6 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import sqlite3
 import os
+model = tf.keras.models.load_model('model.h5')
 
 app = Flask(__name__)
 
@@ -51,3 +52,4 @@ def predict():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
