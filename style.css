@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+}
